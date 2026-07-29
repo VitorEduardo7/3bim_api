@@ -1,0 +1,12 @@
+#Ambientes virtuais
+
+venv/
+env/
+
+#Cache do python
+
+__pycache__/
+
+# Arquivos de ambeitnte caso usem futuramente
+
+.env
