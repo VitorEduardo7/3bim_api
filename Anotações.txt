@@ -1,0 +1,19 @@
+1 - Criar a maquina virtual = python -m venv venv
+
+2 - Ativar maquina virtual = .\venv\Scripts\activate
+
+3 - Reinstalar as bibliotecas = pip install -r requirements.txt
+
+4 - Iniciar Servidor/Testar API = uvicorn main:app --reload
+localhost:8000/docs
+--------------------------------------------
+Criar Database: Loja
+
+Instalando as bibliotecas Python
+# Ambiente virtual já criado nas aulas anteriores
+pip install fastapi uvicorn sqlalchemy pymysql
+
+Atualizar o requirements.txt:
+    pip freeze > requirements.txt
+--------------------------------------------
+
